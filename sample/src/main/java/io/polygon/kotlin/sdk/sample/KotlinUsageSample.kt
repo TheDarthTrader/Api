@@ -1,22 +1,8 @@
 package io.polygon.kotlin.sdk.sample
 
-import com.tylerthrailkill.helpers.prettyprint.pp
-import io.ktor.client.plugins.*
 import io.polygon.kotlin.sdk.DefaultOkHttpClientProvider
 import io.polygon.kotlin.sdk.HttpClientProvider
 import io.polygon.kotlin.sdk.rest.*
-import io.polygon.kotlin.sdk.rest.crypto.CryptoDailyOpenCloseParameters
-import io.polygon.kotlin.sdk.rest.experimental.ExperimentalAPI
-import io.polygon.kotlin.sdk.rest.experimental.FinancialsParameters
-import io.polygon.kotlin.sdk.rest.forex.RealTimeConversionParameters
-import io.polygon.kotlin.sdk.rest.indices.SnapshotIndicesParameters
-import io.polygon.kotlin.sdk.rest.options.SnapshotChainParameters
-import io.polygon.kotlin.sdk.rest.reference.*
-import io.polygon.kotlin.sdk.rest.stocks.GainersOrLosersDirection
-import io.polygon.kotlin.sdk.websocket.*
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.async
-import kotlinx.coroutines.delay
 import okhttp3.Interceptor
 import okhttp3.Response
 import kotlin.system.exitProcess

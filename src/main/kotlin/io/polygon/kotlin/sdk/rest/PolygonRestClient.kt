@@ -25,7 +25,7 @@ import kotlinx.coroutines.runBlocking
  * @param httpClientProvider (Optional) A provider for the ktor [HttpClient] to use; defaults to [DefaultJvmHttpClientProvider]
  * @param polygonApiDomain (Optional) The domain to hit for all API requests; defaults to Polygon's API domain "api.polygon.io". Useful for overriding in a testing environment
  */
-class PolygonRestClient
+open class PolygonRestClient
 @JvmOverloads
 constructor(
     private val apiKey: String,

@@ -47,3 +47,7 @@ suspend fun stocksWebsocketSample(polygonKey: String) {
     websocketClient.unsubscribe(subscriptions)
     websocketClient.disconnect()
 }
+
+suspend fun main() {
+    stocksWebsocketSample("Y3306kJgpbNbyR5LTC78Ob4bqUH1kloh")
+}
