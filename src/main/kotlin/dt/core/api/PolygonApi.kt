@@ -15,7 +15,7 @@ class PolygonApi(key: String,
 }
 
 //fun main() {
-//    val client = PolygonApi("Y3306kJgpbNbyR5LTC78Ob4bqUH1kloh")
+//    val client = PolygonApi("")
 //    client.getAggregates(AggregatesParameters(
 //        "APPL",
 //        1,

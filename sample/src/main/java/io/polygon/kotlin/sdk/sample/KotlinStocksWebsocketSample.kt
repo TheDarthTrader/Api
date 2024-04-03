@@ -49,5 +49,5 @@ suspend fun stocksWebsocketSample(polygonKey: String) {
 }
 
 suspend fun main() {
-    stocksWebsocketSample("Y3306kJgpbNbyR5LTC78Ob4bqUH1kloh")
+    stocksWebsocketSample("")
 }
